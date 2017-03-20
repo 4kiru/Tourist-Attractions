@@ -9,7 +9,6 @@ function onError() {
     alert('onError!');
 }
 
-navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+var options = { frequency: 3000 };  // Update every 3 seconds
 
-
-        
+var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);

@@ -4,8 +4,8 @@
 		id          = "business card"
         version     = "1.0.0" >
 
-    <name>networkcheck</name>
-    <description>My wireless connection</description>
+    <name>Movement app</name>
+    <description>Movement detection</description>
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		John Brown
 	</author>

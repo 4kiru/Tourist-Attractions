@@ -14,17 +14,26 @@
 		<!-- My app main page -->
 		<div data-role="page" id="pageone">
 		  <div data-role="header">
-			<h1>GUI</h1>
+			<h1>Tourist Attractions</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<p>The graphical user interface (GUI), is a type of user interface that allows users to interact with electronic
-            devices through graphical icons and visual indicators such as secondary notation, instead of text-based user
-            interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep
-            learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer
-            keyboard.</p>
+			<a href="#masuria" class="link" data-rel="popup" data-position-to="window" data-transition="fade">Masuria</a>
+            <a href="#pomerania" class="link" data-rel="popup" data-position-to="window" data-transition="fade">Pomerania</a>
+            <a href="#tatra" class="link" data-rel="popup" data-position-to="window" data-transition="fade">Tatra Mountains</a>
+              
+            <div data-role="popup" id="masuria" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/1.jpg" style="max-height:512px;" alt="Masuria Poland">
+            </div>
+            <div data-role="popup" id="pomerania" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/2.jpg" style="max-height:512px;" alt="Pomerania, Poland">
+            </div>
+            <div data-role="popup" id="tatra" data-overlay-theme="b" data-theme="b" data-corners="false">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/3.jpg" style="max-height:512px;" alt="Tatra mountains">
+            </div>
+           
 		  </div>
 		  <div data-role="footer" data-position="fixed">
-			<h1>Mateusz Salawa</h1>
+			<h1>(c)Mateusz Salawa</h1>
 		  </div> 
 		</div> 	
 	</body>

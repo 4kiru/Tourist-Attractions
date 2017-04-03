@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "GUI app"
+		id          = "Tourists attractions"
         version     = "1.0.0" >
 
-    <name>GUI</name>
-    <description>My 2nd mobile app with jQuery Mobile user interface</description>
+    <name>Tourists Attractions</name>
+    <description>Apps with photos in palces</description>
     <author href="http://mypersonalwebsite.com" email="mateusz.salawa@gmail.com">
         Mateusz Salawa
 	</author>
